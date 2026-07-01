@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "이모지 — 한국어 검색 (MVP)",
+  "version": "0.1.0",
+  "description": "한글·영어로 빠르게 검색하고 클릭 한 번으로 복사하는 이모지 패널.",
+  "permissions": ["clipboardWrite"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+E",
+        "mac": "Command+Shift+E"
+      },
+      "description": "이모지 패널 열기"
+    }
+  }
+}

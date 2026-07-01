@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <div class="search-wrap">
+      <span class="search-ico" aria-hidden="true">⌕</span>
+      <input id="q" type="text" placeholder="검색  예: 웃음, ㅋㅋ, fire, 하트"
+             autocomplete="off" autocapitalize="off" spellcheck="false" autofocus>
+      <button id="clear" class="clear" title="지우기" hidden>×</button>
+    </div>
+  </header>
+
+  <nav id="tabs" aria-label="분류"></nav>
+
+  <main id="grid" tabindex="0"></main>
+
+  <div id="empty" class="empty" hidden>검색 결과가 없어요. 다른 말로 해보세요.</div>
+
+  <footer>
+    <span id="hint">↑↓←→ 이동 · Enter 복사 · Esc 닫기</span>
+    <span id="toast" class="toast" hidden></span>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>
