@@ -4,8 +4,12 @@
 
 `웃음`, `ㅋㅋ`, `하트`, `fire` 처럼 편하게 검색하세요. 브라우저 어디서든 툴바 아이콘을 누르면 이모지 패널이 열립니다.
 
-<!-- 스크린샷을 넣으면 여기에 이미지를 추가하세요 -->
-<!-- ![스크린샷](docs/screenshot.png) -->
+<p align="center">
+  <img src="docs/screenshot.png" alt="하트로 검색한 화면" width="320">
+  &nbsp;&nbsp;
+  <img src="docs/browse.png" alt="분류별 둘러보기 화면" width="320">
+</p>
+<p align="center"><sub>왼쪽: <code>하트</code> 한 단어로 검색 &nbsp;·&nbsp; 오른쪽: 분류별로 둘러보기</sub></p>
 
 ## ✨ 특징
 
